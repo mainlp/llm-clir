@@ -1,0 +1,7 @@
+name: encoder
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10.15
+  - theano
