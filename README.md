@@ -5,7 +5,7 @@
 </p>
 
 
-This repository contains the code, experimental framework, evaluation scripts, and ranking results to facilitate reproducibility and future research. 
+This repository contains the code, experimental framework, and evaluation scripts to reproduce the results of the paper [Evaluating Large Language Models for Cross-Lingual Retrieval](https://arxiv.org/abs/2509.14749).
 
 
 <!-- ## Installation
@@ -63,7 +63,7 @@ python build_score_table.py \
 - `--approach`: Reranking method, either `listwise` or `pairwise`. Only required when `--stage=reranking`
 
 
-After evaluation, a significance test is run automatically, if reranking is significantly different from retrieval (p < 0.05), a * is added after the score.
+After evaluation, a significance test is run automatically, reranking results significantly different from retrieval (paired t-test, p < 0.05) are marked with `*`.
 
 
 
@@ -71,9 +71,14 @@ After evaluation, a significance test is run automatically, if reranking is sign
 
 If you find this paper useful, please cite:
 
-
-
-
-
-
-
+```bibtex
+@misc{zuo2025evaluatinglargelanguagemodels,
+      title={Evaluating Large Language Models for Cross-Lingual Retrieval}, 
+      author={Longfei Zuo and Pingjun Hong and Oliver Kraus and Barbara Plank and Robert Litschko},
+      year={2025},
+      eprint={2509.14749},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2509.14749}, 
+}
+```
