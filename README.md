@@ -72,13 +72,15 @@ After evaluation, a significance test is run automatically, reranking results si
 If you find this paper useful, please cite:
 
 ```bibtex
-@misc{zuo2025evaluatinglargelanguagemodels,
-      title={Evaluating Large Language Models for Cross-Lingual Retrieval}, 
-      author={Longfei Zuo and Pingjun Hong and Oliver Kraus and Barbara Plank and Robert Litschko},
-      year={2025},
-      eprint={2509.14749},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2509.14749}, 
+@inproceedings{zuo-etal-2025-evaluating,
+    title = "Evaluating Large Language Models for Cross-Lingual Retrieval",
+    author = "Zuo, Longfei and Hong, Pingjun and Kraus, Oliver and Plank, Barbara and Litschko, Robert",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2025",
+    month = nov,
+    year = "2025",
+    address = "Suzhou, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.findings-emnlp.612/",
+    pages = "11415--11429",
 }
 ```
